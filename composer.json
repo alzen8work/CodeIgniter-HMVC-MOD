@@ -1,8 +1,8 @@
 {
 	"description": "The CodeIgniter framework with HMVC Library",
-	"name": "alzen8work/CodeIgniter-HMVC-MOD",
+	"name": "alzen8work/hmvc-mod",
 	"type": "project",
-	"homepage": "https://github.com/alzen8work/CodeIgniter-HMVC-MOD",
+	"homepage": "https://github.com/alzen8work/hmvc-mod",
 	"license": "MIT",
 	"require": {
 		"php": ">=5.2.4"
