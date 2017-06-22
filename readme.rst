@@ -31,4 +31,4 @@ issues, as well as missing features.
 Installation
 ************
 - Default CodeIgniter installation: https://codeigniter.com/user_guide/installation/index.html
-- Via Composer : composer create-project alzen8work/CodeIgniter-HMVC-MOD
+- Via Composer : composer create-project alzen8work/hmvc-mod
