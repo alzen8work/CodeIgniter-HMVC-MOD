@@ -1,2 +1,7 @@
 
-app/config/database.php
+_app/config/database.php
+
+gruntfile.js
+vendor/*
+node_modules/*
+content/*
