@@ -523,5 +523,5 @@ $config['rewrite_short_tags'] = FALSE;
 $config['proxy_ips'] = '';
 
 $config['modules_locations'] = array(
-    APPPATH . '../_modules/' => '../../_modules/',
+    APPPATH . '../__modules/' => '../../__modules/',
 );
