@@ -1,7 +1,14 @@
 
 _app/config/database.php
-
 gruntfile.js
-vendor/*
-node_modules/*
+
+__build/*
+!__build/.htaccess
+
 content/*
+!content/.htaccess
+
+vendor/*
+!vendor/.htaccess
+
+node_modules/*
