@@ -27,7 +27,11 @@ class MY_Controller extends MX_Controller
             $this->load->library('security');
         }
 		include_once(APPPATH.'core/MY_Constant.php');
-
+		
+		//fix callback form_validation
+		//https://bitbucket.org/wiredesignz/codeigniter-modular-extensions-hmvc
+		$this->load->library('form_validation');
+		$this->form_validation->CI =& $this;
 
 		$this->vars['metaheaders']		= array();
 		$this->vars['metaheaders'][]	= 'charset="utf-8"';
