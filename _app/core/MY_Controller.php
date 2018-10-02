@@ -28,10 +28,7 @@ class MY_Controller extends MX_Controller
         }
 		include_once(APPPATH.'core/MY_Constant.php');
 		
-		//fix callback form_validation
-		//https://bitbucket.org/wiredesignz/codeigniter-modular-extensions-hmvc
-		$this->load->library('form_validation');
-		$this->form_validation->CI =& $this;
+		$this->_hmvc_fixes();
 
 		$this->vars['metaheaders']		= array();
 		$this->vars['metaheaders'][]	= 'charset="utf-8"';
@@ -86,6 +83,14 @@ class MY_Controller extends MX_Controller
 		$this->data['top_nav']  = $this->top_nav;
 		$this->data['sidebar']  = $this->sidebar;
     }
+	
+	function _hmvc_fixes()
+	{		
+		//fix callback form_validation		
+		//https://bitbucket.org/wiredesignz/codeigniter-modular-extensions-hmvc
+		$this->load->library('form_validation');
+		$this->form_validation->CI =& $this;
+	}
 }
 
 /* End of file MY_Controller.php */
