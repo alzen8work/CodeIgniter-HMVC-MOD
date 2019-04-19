@@ -2,7 +2,7 @@
 # gruntfile.js
 # _app/config/config.php
 
-_app/config/database.php
+_app/config/*
 
 __build/*
 !__build/.htaccess
