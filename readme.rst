@@ -32,3 +32,4 @@ Installation
 ************
 - Default CodeIgniter installation: https://codeigniter.com/user_guide/installation/index.html
 - Via Composer : composer create-project alzen8work/hmvc-mod
+- copy folder from ./_app/config.example to ./_app/config (bash : scp -rf ./_app/config.example ./_app/config)
