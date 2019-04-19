@@ -14,3 +14,5 @@ vendor/*
 !vendor/.htaccess
 
 node_modules/*
+
+__modules
